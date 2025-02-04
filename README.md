@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+# React Native E-Commerce App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application built with React Native, designed to provide users with a seamless shopping experience for Dell and Lenovo laptops. This app integrates with a custom-built RESTful API to manage product data and user authentication.
 
-## Get started
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup & Installation](#setup--installation)
+- [Screenshots](#screenshots)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-1. Install dependencies
+## Overview
 
+This project is a continuation of the open-source e-commerce API, now extended into a mobile application to enhance user accessibility and experience. The app allows users to browse, search, and view details of Dell and Lenovo laptops.
+
+## Features
+
+- User authentication (Sign Up and Sign In)
+- Browse products by category
+- View product details
+- Search functionality
+- Integration with a custom RESTful API
+
+## Technologies Used
+
+- **Frontend**: React Native
+- **State Management**: React Context API
+- **Navigation**: React Navigation
+- **HTTP Client**: Axios
+- **Backend API**: Custom-built RESTful API with Node.js, Express.js, and PostgreSQL
+
+## Setup & Installation
+
+### Prerequisites
+
+- Node.js v16+
+- Expo CLI (`npm install -g expo-cli`)
+- Access to the backend API
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/MAVUNDL/React-Native-E-Commerce-App.git
+   cd React-Native-E-Commerce-App
+   ```
+
+2. **Install Dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the Application**
    ```bash
-    npx expo start
+   npx expo start
    ```
+   - Use the Expo Go app to test on a physical device or an emulator.
 
-In the output, you'll find options to open the app in a
+## Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+*Sign up*
+![WhatsApp Image 2025-02-04 at 16 28 01_de941132](https://github.com/user-attachments/assets/182f22d0-85a9-448c-9541-237fd5c41afd)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+*Sign in*
+![WhatsApp Image 2025-02-04 at 16 28 01_3f7689cd](https://github.com/user-attachments/assets/76da9f3b-3cee-4c54-ba2c-703571379706)
 
-## Get a fresh project
+*Welcome page*
+![WhatsApp Image 2025-02-04 at 16 28 01_4425c87a](https://github.com/user-attachments/assets/bd232153-2846-46ae-a419-2f21e13eab3d)
 
-When you're ready, run:
+*OTP verification*
+![WhatsApp Image 2025-02-04 at 16 28 02_d591688a](https://github.com/user-attachments/assets/f2999b1d-5170-4c13-a610-c7fab9e6ef66)
 
-```bash
-npm run reset-project
-```
+*Reset password*
+![WhatsApp Image 2025-02-04 at 16 28 03_4c86d721](https://github.com/user-attachments/assets/64c770f8-6fc2-4685-848c-880db033ad49)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+*Home Screen*
+![WhatsApp Image 2025-02-04 at 16 28 02_dc4d84d8](https://github.com/user-attachments/assets/f16c607e-844d-4e76-b75b-371dc5781870)
 
-## Learn more
+*Product page*
+![WhatsApp Image 2025-02-04 at 16 28 02_f624eda1](https://github.com/user-attachments/assets/cac97e4a-34db-4a0b-8e9c-a20b10c9bc3c)
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+## Future Improvements
 
-Join our community of developers creating universal apps.
+- Finish the product page
+- Implement shopping cart functionality
+- Add user profile management
+- Enhance UI/UX design
+- Integrate payment gateway
+- Improve performance and optimize API calls
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or issues, please open an issue on GitHub or contact me at (sikhumbuzobembe184@gmail.com).
+
